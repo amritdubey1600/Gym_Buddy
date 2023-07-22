@@ -1,4 +1,5 @@
 {
+  "proxy": "https://gym-buddy-p2zv.onrender.com/https://gym-buddy-p2zv.onrender.com/",
   "name": "frontend",
   "version": "0.1.0",
   "private": true,
