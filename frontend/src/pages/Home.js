@@ -9,7 +9,7 @@ const Home = ()=>{
 
     useEffect(()=>{
         const fetchWorkouts = async()=>{
-            const response =  await fetch('api/workouts') //proxy added in frontend package.json to resolve CORS error
+            const response =  await fetch('https://gym-buddy-p2zv.onrender.com/api/workouts') //proxy added in frontend package.json to resolve CORS error
             const json = await response.json() // converts the response into array of json objs
 
             if(response.ok)
